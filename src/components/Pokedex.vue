@@ -63,7 +63,7 @@ export default {
         this.isLoading =false ;
         
       })
-      .catch((e) => {
+      .catch(() => {
        
         this.isLoading =false;
       });
