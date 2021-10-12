@@ -81,16 +81,16 @@ export default {
       ServicePokemon.get(name)
         .then((response) => {
           console.log(response.data.results);
-
+          this.types="";
           this.data = response.data;
           this.src = response.data.sprites.back_default;
           this.name = name;
           this.weight = response.data.weight;
           this.height = response.data.height;
-          debugger;
+          
           response.data.types.forEach((field) => {
             this.types += field.type.name + ", ";
-            debugger;
+            
           });
 
           this.isLoading = false;
