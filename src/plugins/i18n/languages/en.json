@@ -1,0 +1,19 @@
+{
+    "welcomeMsg": "The digital encyclopedia created by professor Oak is an invaluable tool to Trainers in the Pokémon world.",
+    "titleWelcome": "Welcome to Pokédex",
+    "getStarted": "Get Started",
+    "errorTitle": "Uh-oh!",
+    "errorSearchMessage": "You look lost on your journey!",
+    "goBackHome": "Go back home",
+    "all": "All",
+    "search": "Search",
+    "favorites": "Favorites",
+    "name": "Name",
+    "weight": "weight",
+    "height": "Height",
+    "types": "Types",
+    "shareToMyFriends": "Share to my friends",
+    "titleLoader": "Loading..."
+    
+
+}
